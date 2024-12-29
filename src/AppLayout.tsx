@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import { Outlet, useNavigate } from 'react-router-dom'
-import Header from './pages/components/Header'
-import { Box, Grid2 } from '@mui/material'
-import Sidebar from './pages/components/Sidebar'
-import CustomDrawer from './components/CustomDrawer'
+import { Box } from '@mui/material'
 import Cookies from 'js-cookie'
+import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import CustomDrawer from './components/CustomDrawer'
 
 const AppLayout = () => {
   const navigate = useNavigate();
