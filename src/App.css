@@ -1,0 +1,18 @@
+.login-background-image {
+    background-image: url("./assets/glassomorphism_bg.jpg");
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.custom-orange-color {
+    color: #f44336;
+}
+
+.link-deccoration {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
